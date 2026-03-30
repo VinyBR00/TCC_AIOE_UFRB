@@ -27,8 +27,6 @@ Abaixo, a representação geométrica do processo de fatiamento detalhado na mon
 
 ![Fatiamento do Elipsoide](Fatiamento.png)
 
-* **[Simulação de Funções de Fronteira]** *(Link em breve)*
-
 ---
 
 ## 🛠️ Ferramentas Utilizadas
