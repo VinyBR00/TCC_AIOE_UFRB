@@ -3,8 +3,8 @@
 Este repositório contém o código-fonte em LaTeX e os recursos computacionais referentes ao meu Trabalho de Conclusão de Curso (TCC) em Matemática na **Universidade Federal do Recôncavo da Bahia (UFRB)**.
 
 ## 👨‍🔬 Autor e Orientação
-* **Autor:** Marcos Vinícius Barreto
-* **Orientador:** Prof. Dr. Eleazar (CETEC/UFRB)
+* **Autor:** Marcos Vinícius Barreto dos Santos
+* **Orientador:** Prof. Dr. Eleazar Gerardo Madriz Lozada (CETEC/UFRB)
 * **Status:** Em desenvolvimento (Defesa prevista para Julho/2026)
 
 ## 📌 Sobre o Projeto
