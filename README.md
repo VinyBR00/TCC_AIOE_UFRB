@@ -20,7 +20,7 @@ Para garantir a perenidade do acesso às animações e gráficos dinâmicos do a
 
 ## 🛠️ Ferramentas Utilizadas
 * **LaTeX:** Para a redação acadêmica (Normas ABNT via `abntex2`).
-* **VerbTeX Pro:** Ambiente de desenvolvimento mobile para compilação via XeLaTeX.
+* **VerbTeX Pro:** Ambiente de desenvolvimento mobile para compilação via `PdfLaTeX` e bibliografia `biber`.
 * **GitHub:** Gerenciamento de versão e repositório permanente.
 
 ---
