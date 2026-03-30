@@ -11,10 +11,23 @@ Este repositório contém o código-fonte em LaTeX e os recursos computacionais 
 O trabalho foca na análise e implementação do **Algoritmo de Pontos Interiores em Elipsoides (AIOE)**, explorando a convergência e eficiência de métodos de otimização aplicados a geometrias elipsoidais.
 
 ## 🎥 Demonstrações e Recursos Visuais
-Para garantir a perenidade do acesso às animações e gráficos dinâmicos do algoritmo, utilizamos o YouTube como plataforma de hospedagem:
+Para garantir a perenidade do acesso às animações e gráficos dinâmicos do algoritmo, utilizamos o YouTube como plataforma de hospedagem integrada a este repositório:
 
-* **[Animação da Convergência do Algoritmo]** https://youtube.com/shorts/7OmZKBCZdi0?si=g_Du2CC7UPdR4t30
-* **[Simulação de Funções de Fronteira]** (Substitua por seu link do YouTube aqui)
+* **[Assista aqui: Animação da Convergência do Algoritmo AIOE](https://youtube.com/shorts/7OmZKBCZdi0?si=g_Du2CC7UPdR4t30)**
+
+**Guia de Visualização Dinâmica:**
+O vídeo ilustra a varredura sistemática para encontrar pontos ótimos no conjunto $\mathbb{Z}_+^n$, operando no fecho de um elipsoide em $\mathbb{R}_+^n$.
+* **Região Verde:** Elipsoide de teste em $\mathbb{R}_+^n$.
+* **Região Rosa:** Região infactível (coordenadas negativas).
+* **Pontos/Vetores Azuis:** Percurso e identificação dos pontos ótimos em $\mathbb{Z}_+^n$.
+* **Funções de Deslocamento:** Transição entre o salto inicial $f_a$ e os ajustes $g_a$.
+
+**Recurso Estático Complementar:**
+Abaixo, a representação geométrica do processo de fatiamento detalhado na monografia:
+
+![Fatiamento do Elipsoide](Fatiamento.png)
+
+* **[Simulação de Funções de Fronteira]** *(Link em breve)*
 
 ---
 
