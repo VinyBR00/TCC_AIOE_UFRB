@@ -1,4 +1,6 @@
-# Algoritmo de Pontos Interiores em Elipsoides (AIOE) 📐
+# Um algoritmo pseudopolinomial para
+maximizar uma função objetivo linear sobre
+pontos inteiros em elipsoides n-dimensionais 📐
 
 Este repositório contém o código-fonte em LaTeX e os recursos computacionais referentes ao meu Trabalho de Conclusão de Curso (TCC) em Matemática na **Universidade Federal do Recôncavo da Bahia (UFRB)**.
 
