@@ -15,12 +15,12 @@ Para garantir a perenidade do acesso às animações e gráficos dinâmicos do a
 
 * **[Assista aqui: Animação da Convergência do Algoritmo AIOE](https://youtube.com/shorts/7OmZKBCZdi0?si=g_Du2CC7UPdR4t30)**
 
-**Guia de Visualização Dinâmica:** O vídeo ilustra a varredura sistemática para encontrar pontos ótimos no conjunto $\mathbb{Z}_+^2$, operando no fecho de um elipsoide em $\mathbb{R}_+^2$.
+**Guia de Visualização Dinâmica:** O vídeo ilustra a varredura sistemática para encontrar pontos ótimos no conjunto `ℤ₊²`, operando no fecho de um elipsoide em `ℝ₊²`.
 
-* **Região Verde:** Elipsoide de teste em $\mathbb{R}_+^2$.
+* **Região Verde:** Elipsoide de teste em `ℝ₊²`.
 * **Região Rosa:** Região infactível (coordenadas negativas).
-* **Pontos/Vetores Azuis:** Percurso e identificação dos pontos ótimos em $\mathbb{Z}_+^2$.
-* **Funções de Deslocamento:** Transição entre o salto inicial $f_a$ e os ajustes $g_a$.
+* **Pontos/Vetores Azuis:** Percurso e identificação dos pontos ótimos em `ℤ₊²`.
+* **Funções de Deslocamento:** Transição entre o salto inicial `fₐ` e os ajustes `gₐ`.
 
 **Recurso Estático Complementar:**
 Abaixo, a representação geométrica do processo de fatiamento detalhado na monografia:
