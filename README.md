@@ -16,10 +16,10 @@ Para garantir a perenidade do acesso às animações e gráficos dinâmicos do a
 * **[Assista aqui: Animação da Convergência do Algoritmo AIOE](https://youtube.com/shorts/7OmZKBCZdi0?si=g_Du2CC7UPdR4t30)**
 
 **Guia de Visualização Dinâmica:**
-O vídeo ilustra a varredura sistemática para encontrar pontos ótimos no conjunto $\mathbb{Z}_+^n$, operando no fecho de um elipsoide em $\mathbb{R}_+^n$.
-* **Região Verde:** Elipsoide de teste em $\mathbb{R}_+^n$.
+O vídeo ilustra a varredura sistemática para encontrar pontos ótimos no conjunto $\mathbb{Z}_+^2$, operando no fecho de um elipsoide em $\mathbb{R}_+^2$.
+* **Região Verde:** Elipsoide de teste em $\mathbb{R}_+^2$.
 * **Região Rosa:** Região infactível (coordenadas negativas).
-* **Pontos/Vetores Azuis:** Percurso e identificação dos pontos ótimos em $\mathbb{Z}_+^n$.
+* **Pontos/Vetores Azuis:** Percurso e identificação dos pontos ótimos em $\mathbb{Z}_+^2$.
 * **Funções de Deslocamento:** Transição entre o salto inicial $f_a$ e os ajustes $g_a$.
 
 **Recurso Estático Complementar:**
