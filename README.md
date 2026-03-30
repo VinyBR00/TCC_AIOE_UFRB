@@ -20,7 +20,7 @@ O vídeo ilustra a varredura sistemática para encontrar pontos ótimos no conju
 * **Região Verde:** Elipsoide de teste em $\mathbb{R}_+^2$.
 * **Região Rosa:** Região infactível (coordenadas negativas).
 * **Pontos/Vetores Azuis:** Percurso e identificação dos pontos ótimos em $\mathbb{Z}_+^2$.
-* **Funções de Deslocamento:** Transição entre o salto inicial $f_a$ e os ajustes $g_a$.
+* **Funções de Deslocamento:** Transição entre o salto inicial $f_{a}$ e os ajustes $g_{a}$.
 
 **Recurso Estático Complementar:**
 Abaixo, a representação geométrica do processo de fatiamento detalhado na monografia:
