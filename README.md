@@ -25,7 +25,7 @@ Para garantir a perenidade do acesso às animações e gráficos dinâmicos do a
 **Recurso Estático Complementar:**
 Abaixo, a representação geométrica do processo de fatiamento detalhado na monografia:
 
-![Fatiamento do Elipsoide](Fatiamento.png)
+![Redução_dimensional](Redução_dimensional.png)
 
 ---
 
