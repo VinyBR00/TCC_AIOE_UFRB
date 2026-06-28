@@ -21,12 +21,12 @@ Para garantir o acesso e a perenidade dos recursos visuais do algoritmo, utiliza
 ### 2. 📊 Dinâmica do Algoritmo AIOE (Perspectiva Técnica)
 * ▶️ [**Assistir animação técnica no YouTube**](https://youtu.be/K7HpVdJK1hY?si=EuyrtPGT7hsRbw5P)
 
-**Guia de Visualização Avançada:** O vídeo ilustra a varredura sistemática para encontrar pontos ótimos no conjunto $\mathbb{Z}_+^2$, operando no fecho de um elipsoide em $\mathbb{R}_+^2$. Demonstra os deslocamentos discretos rente à fronteira combinatorial através da execução das funções auxiliares $f_a$ e $g_a$.
+**Guia de Visualização Avançada:** O vídeo ilustra a varredura sistemática para encontrar pontos ótimos no conjunto ℤ₊², operando no fecho de um elipsoide em ℝ₊². Demonstra os deslocamentos discretos rente à fronteira combinatorial através da execução das funções auxiliares fₐ e gₐ.
 
 ---
 
 ## 🖼️ Recurso Estático Complementar: Redução Dimensional
-Abaixo, a representação geométrica do processo de fatiamento sequencial detalhado na monografia, mostrando como o algoritmo colapsa sucessivamente subproblemas de dimensões superiores ($\mathbb{R}^3$) em seções discretas bidimensionais analíticas ($\mathbb{R}^2$):
+Abaixo, a representação geométrica do processo de fatiamento sequencial detalhado na monografia, mostrando como o algoritmo colapsa sucessivamente subproblemas de dimensões superiores (ℝ³) em seções discretas bidimensionais analíticas (ℝ²):
 
 ![Fatiamento Inteligente](Redução_dimensional.png)
 
