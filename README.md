@@ -34,7 +34,7 @@ Abaixo, a representação geométrica do processo de fatiamento sequencial detal
 
 ## 📊 Testes Computacionais — Algoritmo AIOE vs Gurobi 12.0
 
-Para validar a exatidão e a eficiência do algoritmo AIOE, foram realizados testes numéricos comparativos contra o solver comercial Gurobi 12.0. Os testes foram executados utilizando instâncias geradas aleatoriamente com semieixos variando no intervalo $[1, 1000]$.
+Para validar a exatidão e a eficiência do algoritmo AIOE, foram realizados testes numéricos comparativos contra o solver comercial Gurobi 12.0. Os testes foram executados utilizando instâncias geradas aleatoriamente com semieixos variando no intervalo [1, 1000].
 
 ### Instâncias para n = 4
 
