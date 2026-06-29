@@ -45,7 +45,7 @@ Abaixo, a representação geométrica do processo de fatiamento sequencial detal
 
 Para validar a exatidão e a eficiência do algoritmo AIOE, foram realizados testes numéricos comparativos contra o solver comercial Gurobi 12.0. Os testes foram executados utilizando instâncias geradas aleatoriamente com semieixos variando no intervalo [1, 1000].
 
-> 💡 **Nota de Escopo e Reprodutibilidade:** Conforme o planejamento desta pesquisa, este trabalho concentra-se estritamente na modelagem geométrica, na formulação teórica e nas provas matemáticas do algoritmo AIOE. A implementação computacional em linguagem C++ (padrão C++14) e o ambiente experimental utilizados para gerar os dados abaixo fazem parte do Trabalho de Conclusão de Curso do discente **Lucas Ivonovith Peixoto Vilas Boas**. Para acesso aos códigos-fonte e scripts completos, consulte a respectiva defesa e repositório do autor.
+> 💡 **Nota de Escopo e Reprodutibilidade:** Conforme o planejamento desta pesquisa, este trabalho concentra-se estritamente na modelagem geométrica, na formulação teórica e nas provas matemáticas do algoritmo AIOE. A implementação computacional em linguagem C++ (padrão C++14) e o ambiente experimental utilizados para gerar os dados abaixo fazem parte do Trabalho de Conclusão de Curso do discente Lucas Ivonovith Peixoto Vilas Boas, documento que pode ser consultado para fins de validação e reprodutibilidade computacional.
 
 ### Instâncias para n = 4
 
