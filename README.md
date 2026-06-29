@@ -47,7 +47,7 @@ Para validar a exatidão e a eficiência do algoritmo AIOE, foram realizados tes
 
 ### Instâncias para n = 4
 
-| $a_1$ | $a_2$ | $a_3$ | $a_4$ | $c_1$ | $c_2$ | $c_3$ | $c_4$ | AIOE OV | AIOE Time (s) | Gurobi OV | Gurobi Time (s) |
+| a₁ | a₂ | a₃ | a₄ | c₁ | c₂ | c₃ | c₄ | AIOE OV | AIOE Time (s) | Gurobi OV | Gurobi Time (s) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 786,7 | 677,1 | 673,1 | 183,3 | 269 | 950 | 998 | 999 | 971220 | 4,611 | 971219 | 0,06585 |
 | 813,5 | 614,3 | 191,9 | 91,8  | 202 | 220 | 348 | 578 | 229216 | 0,723 | 229214 | 0,05105 |
@@ -62,7 +62,7 @@ Para validar a exatidão e a eficiência do algoritmo AIOE, foram realizados tes
 
 ### Instâncias para n = 5
 
-| $a_1$ | $a_2$ | $a_3$ | $a_4$ | $a_5$ | $c_1$ | $c_2$ | $c_3$ | $c_4$ | $c_5$ | AIOE OV | AIOE Time (s) | Gurobi OV | Gurobi Time (s) |
+| a₁ | a₂ | a₃ | a₄ | a₅ | c₁ | c₂ | c₃ | c₄ | c₅ | AIOE OV | AIOE Time (s) | Gurobi OV | Gurobi Time (s) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 566,3 | 506,1 | 418,4 | 154,2 | 146,1 | 396 | 774 | 985 | 988 | 989 | 646252 | 723,748| 646244 | 0,11305 |
 | 730,5 | 410,4 | 317,5 | 157,2 | 8,4   | 696 | 753 | 999 | 1000| 1000| 695379 | 42,303 | 695355 | 0,12135 |
