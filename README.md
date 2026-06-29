@@ -10,6 +10,15 @@ Este repositório contém o código-fonte em LaTeX e os recursos computacionais 
 ## 📌 Sobre o Projeto
 O trabalho foca na análise, modelagem poliedral e implementação do **Algoritmo de Otimização Inteira em Elipsoides (AIOE)**. O método utiliza técnicas de fatiamento ortogonal recursivo para mapear os pontos extremais da envoltória convexa discreta (*Integer Hull*) de um hiperelipsoide.
 
+## 📚 Contribuições Matemáticas
+
+Esta pesquisa estabelece os seguintes resultados teóricos para o algoritmo AIOE:
+
+- Demonstração do Lema da Maximalidade;
+- Demonstração do Teorema de Convergência Global;
+- Análise de complexidade pseudopolinomial para dimensão fixa;
+- Formulação do método de fatiamento ortogonal recursivo em hiperelipsoides.
+
 ## 🎥 Demonstrações e Recursos Visuais
 Para garantir o acesso e a perenidade dos recursos visuais do algoritmo, utilizamos o YouTube como plataforma de hospedagem. O projeto conta com duas abordagens visuais distintas para diferentes públicos:
 
