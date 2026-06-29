@@ -66,7 +66,7 @@ Para validar a exatidão e a eficiência do algoritmo AIOE, foram realizados tes
 | 536,2 | 269,2 | 250,6 | 22,6  | 2,3   | 119 | 829 | 988 | 994 | 1000| 340005 | 1,070  | 340005 | 0,06782 |
 | 965,3 | 791,6 | 759,5 | 589,3 | 152,1 | 165 | 276 | 330 | 484 | 606 | 475142 | 8880,69| 475135 | 0,12058 |
 
-*\*Nota: "OV" refere-se ao Valor da Função Objetivo (Objective Value). Pequenas diferenças unitárias decorrem exclusivamente de tolerâncias numéricas e arredondamentos de ponto flutuante inerentes às implementações computacionais do AIOE e do Gurobi 12.0.*
+*\Nota: "OV" refere-se ao Valor da Função Objetivo (Objective Value). Pequenas diferenças unitárias decorrem exclusivamente de tolerâncias numéricas e arredondamentos de ponto flutuante inerentes às implementações computacionais do AIOE e do Gurobi 12.0.*
 
 ---
 
