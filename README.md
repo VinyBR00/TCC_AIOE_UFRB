@@ -43,7 +43,9 @@ Abaixo, a representação geométrica do processo de fatiamento sequencial detal
 
 ## 📊 Testes Computacionais — Algoritmo AIOE vs Gurobi 12.0
 
-Para validar a exatidão e a eficiência do algoritmo AIOE, foram realizados testes numéricos comparativos contra o solver comercial Gurobi 12.0. Os testes foram executados utilizando instâncias geradas aleatoriamente com semieixos variando no intervalo [1, 1000].
+Para validar a exatidão e a eficiência do algoritmo AIOE, foram realizados testes numéricos comparativos contra o solver comercial Gurobi 12.0[span_3](start_span)[span_3](end_span). Os testes foram executados utilizando instâncias geradas aleatoriamente com semieixos variando no intervalo [1, 1000][span_4](start_span)[span_4](end_span).
+
+> 💡 **Nota de Escopo e Reprodutibilidade:** Conforme o planejamento desta pesquisa, este trabalho concentra-se estritamente na modelagem geométrica, na formulação teórica e nas provas matemáticas do algoritmo AIOE[span_5](start_span)[span_5](end_span)[span_6](start_span)[span_6](end_span). A implementação computacional em linguagem C++ (padrão C++14) e o ambiente experimental utilizados para gerar os dados abaixo fazem parte do Trabalho de Conclusão de Curso do discente **Lucas**[span_7](start_span)[span_7](end_span)[span_8](start_span)[span_8](end_span). Para acesso aos códigos-fonte e scripts completos, consulte a respectiva defesa e repositório do autor[span_9](start_span)[span_9](end_span).
 
 ### Instâncias para n = 4
 
@@ -75,7 +77,7 @@ Para validar a exatidão e a eficiência do algoritmo AIOE, foram realizados tes
 | 536,2 | 269,2 | 250,6 | 22,6  | 2,3   | 119 | 829 | 988 | 994 | 1000| 340005 | 1,070  | 340005 | 0,06782 |
 | 965,3 | 791,6 | 759,5 | 589,3 | 152,1 | 165 | 276 | 330 | 484 | 606 | 475142 | 8880,69| 475135 | 0,12058 |
 
-> **Nota:** "OV" refere-se ao Valor da Função Objetivo (*Objective Value*). Pequenas diferenças unitárias decorrem exclusivamente de tolerâncias numéricas e arredondamentos de ponto flutuante inerentes às implementações computacionais do AIOE e do Gurobi 12.0.
+> **Nota:** "OV" refere-se ao Valor da Função Objetivo (*Objective Value*)[span_10](start_span)[span_10](end_span). Pequenas diferenças unitárias decorrem exclusivamente de tolerâncias numéricas e arredondamentos de ponto flutuante inerentes às implementações computacionais do AIOE e do Gurobi 12.0[span_11](start_span)[span_11](end_span).
 
 ---
 
