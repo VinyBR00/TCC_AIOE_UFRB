@@ -37,7 +37,7 @@ Para garantir o acesso e a perenidade dos recursos visuais do algoritmo, utiliza
 ## 🖼️ Recurso Estático Complementar: Redução Dimensional
 Abaixo, a representação geométrica do processo de fatiamento sequencial detalhado na monografia, mostrando como o algoritmo colapsa sucessivamente subproblemas de dimensões superiores (ℝ³) em seções discretas bidimensionais analíticas (ℝ²):
 
-![Redução_dimensional](imagens/Redução_dimensional.png)
+![Redução_dimensional](imagens/Reducao_dimensional.png)
 
 ---
 
