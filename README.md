@@ -36,7 +36,7 @@ Abaixo, a representação geométrica do processo de fatiamento sequencial detal
 
 Para validar a exatidão e a eficiência do algoritmo AIOE, foram realizados testes numéricos comparativos contra o solver comercial Gurobi 12.0. Os testes foram executados utilizando instâncias geradas aleatoriamente com semieixos variando no intervalo $[1, 1000]$.
 
-### Instâncias para $n = 4$
+### Instâncias para n = 4
 
 | $a_1$ | $a_2$ | $a_3$ | $a_4$ | $c_1$ | $c_2$ | $c_3$ | $c_4$ | AIOE OV | AIOE Time (s) | Gurobi OV | Gurobi Time (s) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -51,7 +51,7 @@ Para validar a exatidão e a eficiência do algoritmo AIOE, foram realizados tes
 | 924,2 | 703,9 | 442,3 | 204,6 | 138 | 412 | 633 | 698 | 446261 | 3,678 | 446253 | 0,07716 |
 | 925,5 | 867,4 | 782,2 | 168,4 | 325 | 641 | 792 | 803 | 895336 | 6,100 | 895336 | 0,11073 |
 
-### Instâncias para $n = 5$
+### Instâncias para n = 5
 
 | $a_1$ | $a_2$ | $a_3$ | $a_4$ | $a_5$ | $c_1$ | $c_2$ | $c_3$ | $c_4$ | $c_5$ | AIOE OV | AIOE Time (s) | Gurobi OV | Gurobi Time (s) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
