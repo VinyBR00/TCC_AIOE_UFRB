@@ -1,6 +1,6 @@
 # Um algoritmo pseudopolinomial para maximizar uma função objetivo linear sobre pontos inteiros em elipsoides n-dimensionais 📐
 
-Este repositório contém o código-fonte em LaTeX e os recursos computacionais referentes ao meu Trabalho de Conclusão de Curso (TCC) em Matemática na **Universidade Federal do Recôncavo da Bahia (UFRB)**.
+Este repositório contém o código-fonte em LaTeX e os recursos analíticos referentes ao meu Trabalho de Conclusão de Curso (TCC) em Matemática na **Universidade Federal do Recôncavo da Bahia (UFRB)**.
 
 ## 👨‍🔬 Autor e Orientação
 * **Autor:** Marcos Vinícius Barreto dos Santos
@@ -8,7 +8,7 @@ Este repositório contém o código-fonte em LaTeX e os recursos computacionais 
 * **Status:** Em desenvolvimento (Defesa prevista para Julho/2026)
 
 ## 📌 Sobre o Projeto
-O trabalho foca na análise, modelagem poliedral e implementação do **Algoritmo de Otimização Inteira em Elipsoides (AIOE)**. O método utiliza técnicas de fatiamento ortogonal recursivo para mapear os pontos extremais da envoltória convexa discreta (*Integer Hull*) de um hiperelipsoide.
+O trabalho foca na análise, modelagem poliedral e fundamentação teórica do **Algoritmo de Otimização Inteira em Elipsoides (AIOE)**. O método utiliza técnicas de fatiamento ortogonal sequencial para mapear os pontos extremais da envoltória convexa discreta (*Integer Hull*) de um elipsoide $n$-dimensional.
 
 ## 📚 Contribuições Matemáticas
 
@@ -16,11 +16,11 @@ Esta pesquisa estabelece os seguintes resultados teóricos para o algoritmo AIOE
 
 - Demonstração do Lema da Maximalidade;
 - Demonstração do Teorema de Convergência Global;
-- Análise de complexidade pseudopolinomial para dimensão fixa;
-- Formulação do método de fatiamento ortogonal recursivo em hiperelipsoides.
+- Análise de complexidade computacional pseudopolinomial para dimensão fixa, limitada superiormente por $O(n \cdot \lfloor a_{n-1} \rfloor^{n-1})$;
+- Formulação matemática do método de fatiamento sequencial em elipsoides.
 
 ## 🎥 Demonstrações e Recursos Visuais
-Para garantir o acesso e a perenidade dos recursos visuais do algoritmo, utilizamos o YouTube como plataforma de hospedagem. O projeto conta com duas abordagens visuais distintas para diferentes públicos:
+Para garantir o acesso e a perenidade dos recursos visuais de modelagem geométrica do algoritmo, utilizamos o YouTube como plataforma de hospedagem. O projeto conta com duas abordagens visuais distintas:
 
 ### 1. 🧬 Introdução à Otimização Inteira (Perspectiva Didática)
 * ▶️ [**Assistir animação didática no YouTube**](https://youtu.be/bKN_NNsvDd0?si=3sigzNJXPA29Twyz)
@@ -30,61 +30,21 @@ Para garantir o acesso e a perenidade dos recursos visuais do algoritmo, utiliza
 ### 2. 📊 Dinâmica do Algoritmo AIOE (Perspectiva Técnica)
 * ▶️ [**Assistir animação técnica no YouTube**](https://youtu.be/K7HpVdJK1hY?si=EuyrtPGT7hsRbw5P)
 
-**Guia de Visualização Avançada:** O vídeo ilustra a varredura sistemática para encontrar pontos ótimos no conjunto ℤ₊², operando no fecho de um elipsoide em ℝ₊². Demonstra os deslocamentos discretos rente à fronteira combinatorial através da execução das funções auxiliares fₐ e gₐ.
+**Guia de Visualização Avançada:** O vídeo ilustra a varredura sistemática para encontrar pontos ótimos no conjunto $\mathbb{Z}_+^2$, operando no fecho de um elipsoide em $\mathbb{R}_+^2$. Demonstra os deslocamentos discretos rente à fronteira combinatorial através da execução das funções auxiliares $f_a$ e $g_a$.
 
 ---
 
 ### 3. 🖼️ Recurso Estático Complementar: Redução Dimensional
-Abaixo, a representação geométrica do processo de fatiamento sequencial detalhado na monografia, mostrando como o algoritmo colapsa sucessivamente subproblemas de dimensões superiores (ℝ³) em seções discretas bidimensionais analíticas (ℝ²):
+Abaixo, a representação geométrica do processo de fatiamento sequencial detalhado na monografia, mostrando como o algoritmo colapsa sucessivamente subproblemas de dimensões superiores ($\mathbb{R}^3$) em seções discretas bidimensionais analíticas ($\mathbb{R}^2$):
 
 ![Redução_dimensional](imagens/Reducao_dimensional.png)
-
----
-
-## 📊 Testes Computacionais — Algoritmo AIOE vs Gurobi 12.0
-
-Para validar a exatidão e a eficiência do algoritmo AIOE, foram realizados testes numéricos comparativos contra o solver comercial Gurobi 12.0. Os testes foram executados utilizando instâncias geradas aleatoriamente com semieixos variando no intervalo [1, 1000].
-
-> 💡 **Nota de Escopo e Reprodutibilidade:** Conforme o planejamento desta pesquisa, este trabalho concentra-se estritamente na modelagem geométrica, na formulação teórica e nas provas matemáticas do algoritmo AIOE. A implementação computacional em linguagem C++ (padrão C++14) e o ambiente experimental utilizados para gerar os dados abaixo fazem parte do Trabalho de Conclusão de Curso do discente Lucas Ivonovith Peixoto Vilas Boas, documento que pode ser consultado para fins de validação e reprodutibilidade computacional.
-
-### Instâncias para n = 4
-
-| a₁ | a₂ | a₃ | a₄ | c₁ | c₂ | c₃ | c₄ | AIOE OV | AIOE Time (s) | Gurobi OV | Gurobi Time (s) |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 786,7 | 677,1 | 673,1 | 183,3 | 269 | 950 | 998 | 999 | 971220 | 4,611 | 971219 | 0,06585 |
-| 813,5 | 614,3 | 191,9 | 91,8  | 202 | 220 | 348 | 578 | 229216 | 0,723 | 229214 | 0,05105 |
-| 849,7 | 540,4 | 497,1 | 225,8 | 837 | 868 | 988 | 1000| 1008936| 3,723 | 1008924| 0,07288 |
-| 967,1 | 341,4 | 263,8 | 250,1 | 522 | 791 | 809 | 867 | 648330 | 1,689 | 648306 | 0,08160 |
-| 982,8 | 907,3 | 419,1 | 398,4 | 909 | 985 | 991 | 991 | 1387492| 7,709 | 1387474| 0,09876 |
-| 879,5 | 767,7 | 37,6  | 5,6   | 723 | 869 | 971 | 979 | 922273 | 0,085 | 922236 | 0,02408 |
-| 870,3 | 861,2 | 841,4 | 588,1 | 539 | 593 | 922 | 992 | 1192889| 20,847| 1192888| 0,08978 |
-| 882,8 | 805,4 | 29,2  | 30,9  | 797 | 911 | 922 | 972 | 1052139| 0,483 | 1052129| 0,07003 |
-| 924,2 | 703,9 | 442,3 | 204,6 | 138 | 412 | 633 | 698 | 446261 | 3,678 | 446253 | 0,07716 |
-| 925,5 | 867,4 | 782,2 | 168,4 | 325 | 641 | 792 | 803 | 895336 | 6,100 | 895336 | 0,11073 |
-
-### Instâncias para n = 5
-
-| a₁ | a₂ | a₃ | a₄ | a₅ | c₁ | c₂ | c₃ | c₄ | c₅ | AIOE OV | AIOE Time (s) | Gurobi OV | Gurobi Time (s) |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 566,3 | 506,1 | 418,4 | 154,2 | 146,1 | 396 | 774 | 985 | 988 | 989 | 646252 | 723,748| 646244 | 0,11305 |
-| 730,5 | 410,4 | 317,5 | 157,2 | 8,4   | 696 | 753 | 999 | 1000| 1000| 695379 | 42,303 | 695355 | 0,12135 |
-| 556,2 | 426,8 | 59,1  | 8,2   | 6,7   | 207 | 942 | 947 | 981 | 988 | 421906 | 0,367  | 421906 | 0,04929 |
-| 350,7 | 278,8 | 199,5 | 78,7  | 35,8  | 777 | 973 | 987 | 999 | 1000| 440463 | 27,795 | 440463 | 0,08993 |
-| 656,5 | 347,4 | 64,7  | 62,8  | 5,3   | 959 | 992 | 992 | 1000| 1000| 723279 | 1,766  | 723254 | 0,04193 |
-| 679,7 | 559,3 | 255,6 | 163,9 | 147,7 | 632 | 725 | 798 | 807 | 910 | 652761 | 683,396| 652750 | 0,12523 |
-| 859,7 | 523,7 | 406,8 | 131,5 | 76,7  | 880 | 966 | 970 | 973 | 992 | 1003047| 423,971| 1003043| 0,10948 |
-| 508,2 | 185,8 | 76,3  | 27,5  | 18,2  | 709 | 839 | 845 | 849 | 898 | 398711 | 1,753  | 398711 | 0,05215 |
-| 536,2 | 269,2 | 250,6 | 22,6  | 2,3   | 119 | 829 | 988 | 994 | 1000| 340005 | 1,070  | 340005 | 0,06782 |
-| 965,3 | 791,6 | 759,5 | 589,3 | 152,1 | 165 | 276 | 330 | 484 | 606 | 475142 | 8880,69| 475135 | 0,12058 |
-
-> **Nota:** "OV" refere-se ao Valor da Função Objetivo (*Objective Value*). Pequenas diferenças unitárias decorrem exclusivamente de tolerâncias numéricas e arredondamentos de ponto flutuante inerentes às implementações computacionais do AIOE e do Gurobi 12.0.
 
 ---
 
 ## 🛠️ Ferramentas Utilizadas
 * **LaTeX:** Para a redação acadêmica seguindo as normas ABNT (via classe `abntex2`).
 * **VerbTeX Pro:** Ambiente mobile para gerenciamento, edição de código LaTeX e compilação via `PdfLaTeX`.
-* **GitHub:** Hospedagem permanente do código e dos recursos multimídia.
+* **GitHub:** Hospedagem permanente do texto e dos recursos multimídia teóricos.
 
 ---
 © 2026 Marcos Vinícius Barreto - Licença MIT
