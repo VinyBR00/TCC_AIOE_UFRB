@@ -8,15 +8,15 @@ Este repositório contém o código-fonte em LaTeX e os recursos analíticos ref
 * **Status:** Em desenvolvimento (Defesa prevista para Julho/2026)
 
 ## 📌 Sobre o Projeto
-O trabalho foca na análise, modelagem poliedral e fundamentação teórica do **Algoritmo de Otimização Inteira em Elipsoides (AIOE)**. O método utiliza técnicas de fatiamento ortogonal sequencial para mapear os pontos extremais da envoltória convexa discreta (*Integer Hull*) de um elipsoide $n$-dimensional.
+O trabalho foca na análise, modelagem poliedral e fundamentação teórica do **Algoritmo de Otimização Inteira em Elipsoides (AIOE)**. O método utiliza técnicas de fatiamento ortogonal sequencial para mapear os pontos extremais da envoltória convexa discreta (*Integer Hull*) de um elipsoide n-dimensional.
 
 ## 📚 Contribuições Matemáticas
 
 Esta pesquisa estabelece os seguintes resultados teóricos para o algoritmo AIOE:
 
 - Demonstração do Lema da Maximalidade;
-- Demonstração do Teorema de Convergência Global;
-- Análise de complexidade computacional pseudopolinomial para dimensão fixa, limitada superiormente por $O(n \cdot \lfloor a_{n-1} \rfloor^{n-1})$;
+- Demonstração do Teorema de Conversgência Global;
+- Análise de complexidade computacional pseudopolinomial para dimensão fixa, limitada superiormente por **O(n · ⌊aₙ₋₁⌋ⁿ⁻¹)**;
 - Formulação matemática do método de fatiamento sequencial em elipsoides.
 
 ## 🎥 Demonstrações e Recursos Visuais
@@ -30,12 +30,12 @@ Para garantir o acesso e a perenidade dos recursos visuais de modelagem geométr
 ### 2. 📊 Dinâmica do Algoritmo AIOE (Perspectiva Técnica)
 * ▶️ [**Assistir animação técnica no YouTube**](https://youtu.be/K7HpVdJK1hY?si=EuyrtPGT7hsRbw5P)
 
-**Guia de Visualização Avançada:** O vídeo ilustra a varredura sistemática para encontrar pontos ótimos no conjunto $\mathbb{Z}_+^2$, operando no fecho de um elipsoide em $\mathbb{R}_+^2$. Demonstra os deslocamentos discretos rente à fronteira combinatorial através da execução das funções auxiliares $f_a$ e $g_a$.
+**Guia de Visualização Avançada:** O vídeo ilustra a varredura sistemática para encontrar pontos ótimos no conjunto **ℤ₊²**, operando no fecho de um elipsoide em **ℝ₊²**. Demonstra os deslocamentos discretos rente à fronteira combinatorial através da execução das funções auxiliares f_a e g_a.
 
 ---
 
 ### 3. 🖼️ Recurso Estático Complementar: Redução Dimensional
-Abaixo, a representação geométrica do processo de fatiamento sequencial detalhado na monografia, mostrando como o algoritmo colapsa sucessivamente subproblemas de dimensões superiores ($\mathbb{R}^3$) em seções discretas bidimensionais analíticas ($\mathbb{R}^2$):
+Abaixo, a representação geométrica do processo de fatiamento sequencial detalhado na monografia, mostrando como o algoritmo colapsa sucessivamente subproblemas de dimensões superiores (**ℝ³**) em seções discretas bidimensionais analíticas (**ℝ²**):
 
 ![Redução_dimensional](imagens/Reducao_dimensional.png)
 
