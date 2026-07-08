@@ -16,7 +16,8 @@ Esta pesquisa estabelece os seguintes resultados teóricos para o algoritmo AIOE
 
 - Demonstração do Lema da Maximalidade;
 - Demonstração do Teorema de Conversgência Global;
-- Análise de complexidade computacional pseudopolinomial para dimensão fixa, limitada superiormente por **O(n·⌊aₙ₋₁⌋ⁿ⁻¹)**;
+- Análise de complexidade computacional pseudopolinomial para dimensão fixa, limitada superiormente por:
+  <p align="center"><b>O(n·⌊aₙ₋₁⌋ⁿ⁻¹)</b>;</p>
 - Formulação matemática do método de fatiamento sequencial em elipsoides.
 
 ## 🎥 Demonstrações e Recursos Visuais
