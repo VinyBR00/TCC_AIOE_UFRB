@@ -30,7 +30,7 @@ Para garantir o acesso e a perenidade dos recursos visuais de modelagem geométr
 ### 2. 📊 Dinâmica do Algoritmo AIOE (Perspectiva Técnica)
 * ▶️ [**Assistir animação técnica no YouTube**](https://youtu.be/K7HpVdJK1hY?si=EuyrtPGT7hsRbw5P)
 
-**Guia de Visualização Avançada:** O vídeo ilustra a varredura sistemática para encontrar pontos ótimos no conjunto **ℤ₊²**, operando no fecho de um elipsoide em **ℝ₊²**. Demonstra os deslocamentos discretos rente à fronteira combinatorial através da execução das funções auxiliares f_a e g_a.
+**Guia de Visualização Avançada:** O vídeo ilustra a varredura sistemática para encontrar pontos ótimos no conjunto **ℤ₊²**, operando no fecho de um elipsoide em **ℝ₊²**. Demonstra os deslocamentos discretos rente à fronteira combinatorial através da execução das funções auxiliares **fₐ** e **gₐ**.
 
 ---
 
